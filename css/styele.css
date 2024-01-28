@@ -1,0 +1,255 @@
+/*common start*/
+body{
+    margin: 0;
+    font-family:serif ;
+    font-size:16px ;
+    font-weight: 400;
+    color: #626262;
+}
+/*common end*/
+/*header start*/
+header{
+   padding: 30px 0;
+ /* border: 1px solid green;*/
+}
+.container{
+    overflow: hidden;
+    margin:0 auto ;
+    width:90% ;
+   /* border: 1px solid green;*/
+}
+.logo{
+    margin-top: 10px;
+    width: 13%;
+  /*  border: 1px solid red ;*/
+    float: left;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width:65% ;
+ /*   border: 1px solid red  ;*/
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style:none ;
+    float: left;
+}
+.menu ul li a{
+    display:inline-block ;
+    margin: 0 45px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+   margin-right: 0;
+}
+
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+    transition: .33s linear ;
+}
+/*header end*/
+/* banner start */
+  .banner{
+    margin-top: 45px;
+  }
+  .b-img{}
+  .b-img img{
+    width: 100%;
+  }
+
+
+ /* banner end */
+ /*getaway start */
+ .getaway{
+    padding: 90px 0 ;
+ }
+.container2{
+    margin: 0 auto;
+    width: 80%;
+  /*  border: 1px solid red;*/
+}
+ .g-content{}
+ .c-light{
+    margin:0 ;
+    font-family:sans-serif ;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform:uppercase ;
+ }
+ .c-title{
+   margin:20px 0 30px;
+   font-size: 30px;
+   font-weight: 400;
+ }
+ .c-text{
+    margin: 0;
+    line-height: 24px;
+ }
+.m-40{
+   margin-top: 40px;
+}
+
+ /*getaway end*/
+ /*blog strat*/
+ .blog-1{
+    padding: 0 0 90px;
+ }
+ .b-content{
+    overflow: hidden;
+ }
+ .blog_item{
+    margin-top: 65px ;
+     float: left;
+     width:47% ;
+    /* border: 1px solid red;*/
+     box-sizing: border-box;
+ }
+ .blog_item:nth-child(even){
+    margin-left: 6%
+ }
+ .mt-30{
+    margin-top: 30px;
+ }
+ /*newsletter start*/
+ .newsletter{
+    margin-top: 90px;
+    padding: 70px 0;
+    background-color: #f0f0f0;
+ }
+ .signup{
+    text-align: center;
+ }
+ .s-h1{
+    color:#333333 ;
+    margin-top: 0;
+    margin-bottom: 70px;
+ }
+ .s-form{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+ }
+ .s-form input{
+    font-family: serif;
+    font-size: 14px;
+    width: 345px;
+    height: 45px;
+    color: #626262;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+ }
+ .s-form input:focus{
+    outline: 0;
+ }
+ .s-form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+ }
+ .s-form button:focus{
+    outline: 0;
+ }
+ .s-form button img{}
+ /*newsletter end*/
+ .blog2{
+    padding-top: 25px;
+ }
+ .load{
+    text-align: center;
+    padding: 150px 0 60px;
+ }
+ .load button{
+    width: 165px;
+    height: 60px;
+    border: 2px solid #626262;
+    border-radius: 0;
+    background-color: white;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+ }
+  .load button:hover{
+    background-color:#626262;
+    color:white;
+  }
+
+/*footer strat*/
+.footer{
+    padding: 30px 0;
+    background-color: #F0F0F0;
+}
+.pages{
+    width: 30%;
+    float: left;
+}
+.pages ul{
+    overflow: hidden;
+    padding: 0;
+}
+.pages ul li{
+    color: #626262;
+    list-style: none;
+    float: left;
+}
+.pages ul li:first-child a{
+    margin-left: 0;
+    margin-right: 25px;
+    color: #626262;
+}
+.pages ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: serif;
+    font-weight: 400;
+}
+.pages ul li a:hover{
+    color: #626262;
+}
+.social{
+     width: 20%
+     float: right;
+}
+.social ul{
+    float: right;
+}
+.social ul li span{
+    color: #626262;
+}
+.social ul li{
+    list-style: none;
+    float: left;
+}
+.social ul li a{
+    margin: 0 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
